@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #1C1C1C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.content-wrap {
+    width: 400px;
+    max-width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #1C1C1C;
+}
+.first-container {
+    background: #6943FF;
+    height: 200px;
+}
+.first-container > h2 {
+    font-size: 1.2rem;
+    font-weight: bolder;
+    color: white;
+    padding: 25px 0;
+}
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+#input-el {
+    width: 80%;
+    height: 60px;
+    margin-bottom: 15px;
+    background: #6943FF;
+    border: 1px solid #B295FF;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bolder;
+    color: white;
+    letter-spacing: 3px;
+}
+#input-el:focus {
+    outline: none;
+}
+#btn-el {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #3D3D3D;
+    font-weight: 600;
+    cursor: pointer;
+}
+.second-container {
+    height: 300px;
+    background: #F4F4F4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.result-wrap {
+    height: 80px;
+    width: 90%;
+    background: white;
+}
+.result-wrap > h3 {
+    color: #5A537B;
+    font-size: 1rem;
+    padding: 20px 0 10px;
+}
+.result-wrap > p {
+    font-size: .8rem;
+}
